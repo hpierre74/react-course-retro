@@ -24,6 +24,7 @@
     }
   },
   "rules": {
+    "arrow-parens": "off",
     "prettier/prettier": "error",
     "object-curly-newline": "off",
     "object-curly-spacing": ["error", "always"],
