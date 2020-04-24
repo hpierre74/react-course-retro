@@ -4,10 +4,27 @@
 
 The purpose of this exercise is to understand a react app architecture, whether it uses redux or built-in React tools (context and hooks).
 
-### Workflow
+## Workflow
 
 For a single person, use a VS code liveshare session (or equivalent) and let the learner go step by step while questioning the decisions taken. Of course, re-orient him/her when the decision is not right by explaining why and giving hints on the right direction to take.
 
+
+## Pre-requisites
+
+- node >= 11
+- yarn 1.*
+
+#### Nice to have
+
+- vscode with liveshare
+- prettier / eslint extensions
+
+## Getting started
+
+- `git clone https://github.com/hpierre74/react-retro-workshop`
+- `yarn && yarn start`
+
+## Steps
 
 ### Analysis
 
@@ -33,9 +50,7 @@ For a single person, use a VS code liveshare session (or equivalent) and let the
 - Style it with material ui to gain time
 - :tada:
 
-## Functional Specs
-
-### Dependencies
+## Dependencies
 
 To gain time, a boilerplate with tools and dependencies in place will be given:
 
@@ -54,6 +69,8 @@ To gain time, a boilerplate with tools and dependencies in place will be given:
 - eslint
 - prettier
 
+
+## Functional Specs
 
 ### Pages
 
