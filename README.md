@@ -13,10 +13,42 @@ Through this
 
 ### Analysis
 
-- Identify the the html structure
+- Identify the html structure
 > You may use https://wireframe.cc/ to help visualize the DOM elements
+- Identify the react component structure from the html one, list them
+> You may use https://wireframe.cc/ to help visualize the react elements
+- List the methods you will need
+- List the states you will need
+- Virtually assign the state and methods to the components you listed earlier
+- With Context, how would you architecture your app so every components access what it needs and nothing else (if possible)
+- With Redux, how would you architecture your app so every components access what it needs and nothing else (if possible)
 
-- From the website, you need to 
+### Code !
+- Create your directory structure and file structure
+- Create 
+
+
+## Specs
+
+### Dependencies
+
+To gain time, a boilerplate with tools and dependencies in place will be given:
+
+- react
+- prop-types
+- react-router
+- connected-react-router
+- redux
+- react-redux
+- redux-thunk
+- @material-ui/core
+- @material-ui/icons
+- @material-ui/styles
+
+###### tools
+- eslint
+- prettier
+
 
 ### Pages
 
@@ -37,7 +69,7 @@ Through this
 ### Cart
 
 - Empty Card with a checkout button by default
-- List of added items with delete/minus button, you can add the same item and increment its count from the `add to cart` button
+- List of added items with delete/minus button (you can add the same item and increment its count from the `add to cart` button)
 
 
 ### Article
