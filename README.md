@@ -3,12 +3,10 @@
 > Url: https://react-course-retro.now.sh/
 
 The purpose of this exercise is to understand a react app architecture, whether it uses redux or built-in React tools (context and hooks).
-Through this
 
 ### Workflow
 
-- No timebox: the aim is to learn the principles not to jump from one concept to another. Though, this exercise should'nt take more than 2/3 days with an active mentoring.
-- Pair/mob programming: for a single person, use a VS code liveshare session (or equivalent) and let the learner go step by step while questioning the decisions taken. Of course, re-orient him/her when the decision is not right by explaining why and giving hints on the right direction to take.
+For a single person, use a VS code liveshare session (or equivalent) and let the learner go step by step while questioning the decisions taken. Of course, re-orient him/her when the decision is not right by explaining why and giving hints on the right direction to take.
 
 
 ### Analysis
@@ -24,11 +22,18 @@ Through this
 - With Redux, how would you architecture your app so every components access what it needs and nothing else (if possible)
 
 ### Code !
+
 - Create your directory structure and file structure
-- Create 
+- Create your routes
+- Create your shared components
+- create a basic html (jsx) markup for your pages
+- Create your store
+- create your modules (features reflecting the business) 
+- access the store and methods in your components and identify the pitfalls (redux or context)
+- Style it with material ui to gain time
+- :tada:
 
-
-## Specs
+## Functional Specs
 
 ### Dependencies
 
@@ -70,7 +75,6 @@ To gain time, a boilerplate with tools and dependencies in place will be given:
 
 - Empty Card with a checkout button by default
 - List of added items with delete/minus button (you can add the same item and increment its count from the `add to cart` button)
-
 
 ### Article
 
